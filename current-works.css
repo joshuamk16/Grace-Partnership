@@ -1,3 +1,43 @@
+.text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 3px;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+      color: black !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+} .open .dropdown-toggle {
+    color: #fff;     
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+    letter-spacing: 0;
+}
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
 #header h1 {
 	color: #111;
 	position: relative;
@@ -8,12 +48,27 @@
 
 #maindiv {
 	background-color: #c7d9eb;
+	height: 750px;
 }
 
-#slide1 w3-content{
+#slide1 .w3-content{
 	position: absolute;
-	left: 100px;
+	left: 5%;
 	float: left;
+	top: 150px;
+}
+
+#slide1 h5 {
+	background-color: rgba(0, 0,0, 0.4);
+	top:150px;
+	font-size: 175%;
+	left: 5%;
+	margin: 0;
+}
+
+#slide1 .mySlides {
+	height: 400px;
+	width: 600px;
 }
 
 .footer-distributed{

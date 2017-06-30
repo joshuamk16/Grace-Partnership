@@ -1,17 +1,42 @@
-.navbar-header {
-	border: none;
-	border-radius: 0;
-	background-color: rgba(0,0,0,0.5);
+.text {
+	font-family: 'Montserrat', sans-serif;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 3px;
 }
 
-.navbar ul{
-	font-size: 17px;
+.nav-tabs li a {
+    color: #777;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: black !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+  }
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+    letter-spacing: 0;
+}
+.dropdown-menu li a:hover {
+    background-color: red !important;
 }
 #maindiv {
 	height: 760px;
@@ -22,11 +47,12 @@
 #header h1 {
 	padding-right: 10%;
 	font-size: 450%;
-	top: 40px;
+	top: 60px;
 	display: inline;
 	position: relative;
 	float: right;
 	clear: both;
+	color: #65c3fb;
 }
 
 .firstintro img{
@@ -82,10 +108,11 @@
 	position: relative;
 	float: left;
 	clear: both;
+	color: #65c3fb;
 }
 
 #seconddiv p {
-	font-size: 200%;
+	font-size: 125%;
 	width: 750px;
 	position: absolute;
 	padding-top: 150px;
@@ -108,6 +135,7 @@
 	position: relative;
 	float: right;
 	clear: both;
+	color: #65c3fb;
 }
 
 #thirddiv p {
@@ -128,6 +156,7 @@
 	position: relative;
 	float: right;
 	clear: both;
+	color: #65c3fb;
 }
 
 #thirddiv ul {
